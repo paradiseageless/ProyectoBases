@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="mundial_de_futbolPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>Entidades_Base.Equipo</class>
+    <class>Entidades_Base.Gol</class>
+    <class>Entidades_Base.Arbitra</class>
+    <class>Entidades_Base.Boleta</class>
+    <class>Entidades_Base.Continentes</class>
+    <class>Entidades_Base.Estadio</class>
+    <class>Entidades_Base.Partido</class>
+    <class>Entidades_Base.Sillas</class>
+    <class>Entidades_Base.Grupo</class>
+    <class>Entidades_Base.Usuarios</class>
+    <class>Entidades_Base.Tarjeta</class>
+    <class>Entidades_Base.Juez</class>
+    <class>Entidades_Base.Jugador</class>
+    <class>Entidades_Base.Paises</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@orion.javeriana.edu.co:1521:PUJDB"/>
+      <property name="javax.persistence.jdbc.user" value="is175812"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="VxVf1iPVIP"/>
+    </properties>
+  </persistence-unit>
+</persistence>
