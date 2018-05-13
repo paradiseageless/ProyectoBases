@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A2CAD544-290D-1BF2-F942-13FD56FB0666" containerWithKeyObject="A7992589-77F6-640D-6DE5-7AD3D2E7DC4F" localFKIndex="E29F0DF8-D2BF-CB62-1A39-0D8AA9A03042" name="Paises_Continentes_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>ACA4D2FC-0FE1-2EE9-FC36-FFD438E17439</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<referredTableLongName>Continentes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E1060EF5-78F4-3482-F1AE-8068D00E0E1A</referredTableID>
+<keyObject>9F278353-FE65-F722-FD9C-AC4809BACD43</keyObject>
+<referredKeyID>9F278353-FE65-F722-FD9C-AC4809BACD43</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_continente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

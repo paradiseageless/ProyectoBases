@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DA1C7E6D-9193-6056-8B60-A1415A4A58EF" name="Partido_Octavos">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 16:04:40 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>838AD2D6-D3CC-5C5A-EB3F-569770F8AFB1</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

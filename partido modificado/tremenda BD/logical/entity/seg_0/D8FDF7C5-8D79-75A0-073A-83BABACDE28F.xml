@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8FDF7C5-8D79-75A0-073A-83BABACDE28F" name="Fase">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-11 01:41:39 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fase" id="35E604A0-F26A-D056-E718-FA28DC415FF5">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-11 01:42:24 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fase" id="3D443B09-CFF8-2E79-8BAA-2CB36DC6A30E">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-11 01:43:47 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5EBA0A29-A6B5-437D-A6FF-81EF3F0B3C41" name="Fase PK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-11 01:44:01 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3D443B09-CFF8-2E79-8BAA-2CB36DC6A30E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6BBEF1FB-79AC-7267-AD1C-95F6DFE4BF82" name="Arbitra">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:46:32 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tipo" id="DCC293D1-98DB-93B4-0310-A16DB5599160">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:46:45 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_partido" id="B889BA70-8331-2098-7A27-AAD17E2E795B">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:24:55 UTC</createdTime>
+<generatorID>52D5B23A-0CC5-E6CD-9A76-1CCA51A04B1F</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>76380FD9-B163-E17A-1729-EB146A5C45FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_juez" id="C684B635-9A86-0C27-E634-8FECFBA63EF7">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:25:20 UTC</createdTime>
+<generatorID>9DE256AD-05F3-7960-4C06-680758B35BAC</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>F6FAD4AF-956E-748D-097C-BE7FEE5A91A5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="085F8D65-3D7A-1993-8086-1F95225925BA" name="arbitra PK">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:24:55 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B889BA70-8331-2098-7A27-AAD17E2E795B</attributeRef>
+<attributeRef>C684B635-9A86-0C27-E634-8FECFBA63EF7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

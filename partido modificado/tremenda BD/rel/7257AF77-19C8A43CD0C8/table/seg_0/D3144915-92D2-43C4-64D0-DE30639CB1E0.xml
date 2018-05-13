@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3144915-92D2-43C4-64D0-DE30639CB1E0" name="Ciudad">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>FA6B2706-DD3E-6241-8626-F9A7E4ADCCDD</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ciudad" id="A2F37FAC-BF4E-980F-4414-42FB08012F3C">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>7731E437-485F-78CE-CC9B-DCEC03830D6F</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_ciudad" id="C623E647-7C4D-77C3-415E-947FE39C62B5">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>0BCFA5B7-CCE7-F3CB-3D29-7D55248B91D7</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E714C96C-9FAB-9009-AC44-1E51B5E00281" name="Ciudad_PK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>C06C5B9E-8383-27F4-0D42-278DB89ABE65</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2F37FAC-BF4E-980F-4414-42FB08012F3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

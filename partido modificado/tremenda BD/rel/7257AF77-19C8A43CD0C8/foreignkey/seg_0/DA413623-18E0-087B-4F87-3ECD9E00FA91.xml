@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DA413623-18E0-087B-4F87-3ECD9E00FA91" containerWithKeyObject="E3C887DF-D211-7309-D67B-A7274E9D574F" localFKIndex="4EB15622-2B1A-D000-C736-D9F9B00AFDB8" name="Partido_Octavos_Ganadores_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>61BB5906-07A8-33AB-57C8-16DF8F5053B3</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<referredTableLongName>Ganadores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FDC971F5-3B50-8549-1074-BB28A90B8071</referredTableID>
+<keyObject>6A4ACB36-24DF-C1A9-F5F7-583B40EE08E0</keyObject>
+<referredKeyID>6A4ACB36-24DF-C1A9-F5F7-583B40EE08E0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Ganadores_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

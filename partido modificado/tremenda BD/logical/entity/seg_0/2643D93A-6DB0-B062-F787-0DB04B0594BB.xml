@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2643D93A-6DB0-B062-F787-0DB04B0594BB" name="Historial jugador">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-05 23:00:02 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_jugador" id="877E91C0-1299-0B7D-4C6B-C3FB8302CBD8">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-05 23:02:06 UTC</createdTime>
+<generatorID>B2FEEB5F-5CA5-CD34-C0FF-3A494A3B9187</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>F3B58019-9FAE-A607-F63C-F80E433D5A4F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_equipo_jug" id="933C6379-1C58-D331-F6EA-8920878014AD">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-05 23:02:06 UTC</createdTime>
+<generatorID>B2FEEB5F-5CA5-CD34-C0FF-3A494A3B9187</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>27243D44-6264-9FA3-D45D-0C3E900B1055</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_equipo_hist" id="C51EDEA4-3769-3CDB-30A7-EFE5D5631229">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-05 23:06:55 UTC</createdTime>
+<generatorID>F64ACDA2-D092-0E7B-6DB7-794CCE5632AC</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>EDFE5BDE-5719-4C91-6C00-A3D5992BF89C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99ED26B3-419B-7869-F071-53E26D630274" name="Historial jugador PK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 15:01:32 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

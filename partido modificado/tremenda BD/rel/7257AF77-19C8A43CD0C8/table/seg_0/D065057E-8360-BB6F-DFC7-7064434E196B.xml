@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D065057E-8360-BB6F-DFC7-7064434E196B" name="Historial_jugador">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>2643D93A-6DB0-B062-F787-0DB04B0594BB</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Jugador_numero_jugador" id="C2CB1406-D36C-2F43-C8E2-B21C0447DF26">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>877E91C0-1299-0B7D-4C6B-C3FB8302CBD8</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46D61108-C548-3344-E56A-A4150FFAD243" referredColumn="56AF1D05-7AC6-DD8D-1446-A520B5E29DC9"/>
+</associations>
+</Column>
+<Column name="Jugador_Equipo_id_equipo" id="200AFE8A-6A0F-0D05-3D87-219D82BE09A8">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>933C6379-1C58-D331-F6EA-8920878014AD</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46D61108-C548-3344-E56A-A4150FFAD243" referredColumn="353D4509-5B0E-C293-700C-A335B86A536F"/>
+</associations>
+</Column>
+<Column name="Equipo_Historial_id_equipo_hist" id="2EDF6BB9-380F-95CC-AF81-84AB0E41D217">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>C51EDEA4-3769-3CDB-30A7-EFE5D5631229</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D53EB5DA-3B38-FC67-BC3D-297DF2AC3380" referredColumn="88A7380B-7240-BD9B-046C-221EBC5247C7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2AABE486-A528-EE3B-B97F-1FBB32E99ACD" name="Historial_jugador_PK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>99ED26B3-419B-7869-F071-53E26D630274</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="FDE803DE-B3EA-012B-02FA-5113C5E174FE" name="Historial_jugador_Jugador_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>B2FEEB5F-5CA5-CD34-C0FF-3A494A3B9187</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2CB1406-D36C-2F43-C8E2-B21C0447DF26"/>
+<colUsage columnID="200AFE8A-6A0F-0D05-3D87-219D82BE09A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5FA8366-A3FC-1DDE-9C99-981E389C541C" name="Historial_jugador_Equipo_Historial_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>F64ACDA2-D092-0E7B-6DB7-794CCE5632AC</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EDF6BB9-380F-95CC-AF81-84AB0E41D217"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

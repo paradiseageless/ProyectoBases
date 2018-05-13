@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E23F41F0-C091-7B54-D24F-DEE0A5F7B66C" name="Partido_3F">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>A09169D1-9654-01DA-22E0-AC3D17F4ED32</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_partido" id="227485FE-AD36-854D-86C5-8CE44A8A0398">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>76380FD9-B163-E17A-1729-EB146A5C45FC</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE7D5FF0-5927-215B-906B-D10328AB04B7" referredColumn="FBAB149F-ABB7-FCD5-25A9-F38912BAFC63"/>
+</associations>
+</Column>
+<Column name="Partido_id_partido1" id="3EAC6F16-932A-B668-A12A-CC2787ACAF6C">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>6F9403E2-9F27-687F-852B-364E290F3108</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AEC1A1A-F4F5-0EA0-617A-A25D9E25D4EC" referredColumn="FBAB149F-ABB7-FCD5-25A9-F38912BAFC63"/>
+</associations>
+</Column>
+<Column name="Partido_id_partido" id="FD606388-1210-4548-83A2-18EA79185B02">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>BEBE4BEA-B61D-1419-AC3C-734C017FD2C8</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0563E955-7D6F-0353-F020-06D12B44E92F" referredColumn="FBAB149F-ABB7-FCD5-25A9-F38912BAFC63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1D3E601-F10B-0278-F81D-BC72DBD42DD6" name="Partido_3F_PK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>13EA6149-0ACA-C250-AA31-4F7DB0B14437</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="227485FE-AD36-854D-86C5-8CE44A8A0398"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="970C903F-7B11-FAC5-B8DC-83108F25689A" name="Partido_3F__IDX">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>711A7625-DE16-BD8B-9E01-90738BC14E76</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FD606388-1210-4548-83A2-18EA79185B02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AA6C8A8-0C1A-71F8-B0C7-12B2013A0E03" name="Partido_3F__IDXv1">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>89EC9C06-6379-AE1B-4B41-81FED5AE39B6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3EAC6F16-932A-B668-A12A-CC2787ACAF6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EDE1BC9-A071-CFE5-9901-1E52B232CC01" name="Partido_3F_Partido_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>5DC53947-F7BE-32D6-158B-053E331CBC3D</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="227485FE-AD36-854D-86C5-8CE44A8A0398"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="590266BD-049A-A081-B00A-DF460C5196C4" name="Partido_3F_Partido_FKv2">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>711A7625-DE16-BD8B-9E01-90738BC14E76</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD606388-1210-4548-83A2-18EA79185B02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64453403-F48D-9243-F6BB-358D64F3A64E" name="Partido_3F_Partido_FKv3">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>89EC9C06-6379-AE1B-4B41-81FED5AE39B6</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EAC6F16-932A-B668-A12A-CC2787ACAF6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

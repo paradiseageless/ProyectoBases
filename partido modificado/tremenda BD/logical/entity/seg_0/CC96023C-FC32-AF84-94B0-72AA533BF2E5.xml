@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CC96023C-FC32-AF84-94B0-72AA533BF2E5" name="Grupo">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:14:54 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_grupo" id="275FB42C-D4EC-FF24-32A2-58A5CC2051D0">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:15:05 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_grupo" id="58D0BEF6-FF07-615A-18D0-8442E5268908">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:15:19 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_partido" id="25BF52E9-B522-6508-EDCC-15CA5EF9AED3">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 16:35:56 UTC</createdTime>
+<generatorID>4DA540DC-EF57-4278-9326-EF149EA866D4</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>76380FD9-B163-E17A-1729-EB146A5C45FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_partido1" id="35283F25-16EF-2F38-BCD4-4664D6B12819">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 16:35:56 UTC</createdTime>
+<generatorID>EC0F14B2-5E5C-7AB0-DC90-6D127C89D4EF</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>76380FD9-B163-E17A-1729-EB146A5C45FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7F2E9D0-B560-3CDC-BB87-86DC03954322" name="grupo PK">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:15:17 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>275FB42C-D4EC-FF24-32A2-58A5CC2051D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

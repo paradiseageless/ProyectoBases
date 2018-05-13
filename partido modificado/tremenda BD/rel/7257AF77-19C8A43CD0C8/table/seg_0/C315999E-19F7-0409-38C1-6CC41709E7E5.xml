@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C315999E-19F7-0409-38C1-6CC41709E7E5" name="Boleta">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>B581DCDE-7D0E-53F7-3787-3BDB255E4140</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="valor" id="8A4C167C-475B-A409-C90A-881132CD33E0">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>B20A0EDB-A485-465C-2D46-E291D59C3A4A</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sillas_numero" id="7E7DE601-1DD1-DA62-203F-C08C60F456D8">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>5F69361D-5184-6CA1-AB82-22D79A775310</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1682B26-F71B-49DE-B0E4-2BCFFC7A293F" referredColumn="145C25D1-D76A-1514-18BA-737D32F615AF"/>
+</associations>
+</Column>
+<Column name="Sillas_categoria" id="0065BC5A-57EE-ADCD-A4B7-8CC988C74753">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>49836984-8ECA-3647-14EA-E99EC93E0DFA</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1682B26-F71B-49DE-B0E4-2BCFFC7A293F" referredColumn="C854DD84-59FA-3664-9745-33FDB1E906D5"/>
+</associations>
+</Column>
+<Column name="Sillas_ubicacion" id="4D5C48BE-F930-34FB-1CBA-0E5E992A0F9B">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>62C60E24-EAC0-8374-486F-4749E2F5267C</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1682B26-F71B-49DE-B0E4-2BCFFC7A293F" referredColumn="0D9AD833-A207-69DE-3F69-9AA4645A0581"/>
+</associations>
+</Column>
+<Column name="Sillas_Estadio_id_estadio" id="CF6A109D-B737-6929-4BD2-A2CA577D6D2E">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>8CEC7C26-E4E8-683C-3BBB-A4B3F23757CD</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1682B26-F71B-49DE-B0E4-2BCFFC7A293F" referredColumn="78131523-578A-F377-6504-36F964B25DFB"/>
+</associations>
+</Column>
+<Column name="Usuarios_id_usuario" id="20EBDBBE-6A3F-7B05-0AFB-89C7ECAC26CD">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>351910DF-4899-1294-E6C0-9786DEFB717B</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DB17C91-86A9-4471-3B17-F48F89C3166C" referredColumn="4339D35F-7373-5EDE-49A6-67549449EA9E"/>
+</associations>
+</Column>
+<Column name="Partido_id_partido" id="B6B5E005-D1C4-C1A4-0030-D00FBE62C61E">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>84300C80-7F0F-50B9-130D-D832DCA40081</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FBA8DAA-800C-2283-2162-9707291D0C7F" referredColumn="FBAB149F-ABB7-FCD5-25A9-F38912BAFC63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FB82941-A478-1DA1-8628-7BE57A5D6A3A" name="Boleta_PK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>17D37874-D0BA-D624-6FB8-6E0655B14EB2</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E7DE601-1DD1-DA62-203F-C08C60F456D8"/>
+<colUsage columnID="0065BC5A-57EE-ADCD-A4B7-8CC988C74753"/>
+<colUsage columnID="4D5C48BE-F930-34FB-1CBA-0E5E992A0F9B"/>
+<colUsage columnID="CF6A109D-B737-6929-4BD2-A2CA577D6D2E"/>
+<colUsage columnID="20EBDBBE-6A3F-7B05-0AFB-89C7ECAC26CD"/>
+<colUsage columnID="B6B5E005-D1C4-C1A4-0030-D00FBE62C61E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B896D2B3-22CB-DC2E-194A-28B99C27CA66" name="Boleta_Usuarios_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>3ADCF212-E8B4-FA7F-8948-1A32C4101AF8</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20EBDBBE-6A3F-7B05-0AFB-89C7ECAC26CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2872C212-4D03-3C21-D35F-811876403892" name="Boleta_Sillas_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>CF84CA24-72FB-9691-FB8A-0A882954C1DF</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E7DE601-1DD1-DA62-203F-C08C60F456D8"/>
+<colUsage columnID="0065BC5A-57EE-ADCD-A4B7-8CC988C74753"/>
+<colUsage columnID="4D5C48BE-F930-34FB-1CBA-0E5E992A0F9B"/>
+<colUsage columnID="CF6A109D-B737-6929-4BD2-A2CA577D6D2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4B5AD09-5AF1-C94B-9BBB-2D6BFDE4412B" name="Boleta_Partido_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>B84ECD8D-F75C-EFC9-B588-E2A24414F679</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6B5E005-D1C4-C1A4-0030-D00FBE62C61E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

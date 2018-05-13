@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2E26FFFE-6367-E577-B999-2D6B376617DA" containerWithKeyObject="EC1C7A54-37E2-2F80-517F-F105B22768A7" localFKIndex="70622027-BF44-3291-6055-D5F701ECC583" name="Juez_Paises_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>F4EE575C-141B-A19F-C033-F969DEFDA378</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<referredTableLongName>Paises</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A7992589-77F6-640D-6DE5-7AD3D2E7DC4F</referredTableID>
+<keyObject>380EFA10-C748-DB36-15A3-72264A0B1F0D</keyObject>
+<referredKeyID>380EFA10-C748-DB36-15A3-72264A0B1F0D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pais</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

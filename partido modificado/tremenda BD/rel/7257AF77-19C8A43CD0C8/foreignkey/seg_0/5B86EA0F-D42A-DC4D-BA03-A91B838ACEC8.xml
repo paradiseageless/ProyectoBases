@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5B86EA0F-D42A-DC4D-BA03-A91B838ACEC8" containerWithKeyObject="A2873D47-0B54-9EF6-5B5C-774138F85F31" localFKIndex="3D8907F7-4FFC-17A0-0CA3-1598FAD1D5B0" name="Grupo_Partido_grupos_FKv2">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>4DA540DC-EF57-4278-9326-EF149EA866D4</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<referredTableLongName>Partido_grupos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6D9C9CC1-149E-B89D-37DB-4A8199AFA525</referredTableID>
+<keyObject>DBFF0123-AE61-4D96-E04E-8F718A38F058</keyObject>
+<referredKeyID>DBFF0123-AE61-4D96-E04E-8F718A38F058</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_partido</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

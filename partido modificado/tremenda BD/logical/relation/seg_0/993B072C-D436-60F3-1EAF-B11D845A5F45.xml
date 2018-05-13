@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pertenece" directorySegmentName="seg_0" id="993B072C-D436-60F3-1EAF-B11D845A5F45">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:12:51 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<sourcePk>48A6DD8E-9152-FB5F-3D9C-3D4DE4698D77</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>11003ACB-946B-6CE6-33E0-D78AD1C55D3A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>38797BD6-96D1-DA3B-9705-FB5C45608840</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

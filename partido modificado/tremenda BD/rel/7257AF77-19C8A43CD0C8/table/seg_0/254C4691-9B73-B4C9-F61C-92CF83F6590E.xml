@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="254C4691-9B73-B4C9-F61C-92CF83F6590E" name="Alineacion">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>A13FD96D-94E3-BA2A-3C83-9DE02FB1C852</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="posicion" id="CEDCEC02-52F4-184E-FC8A-9D6E45E4F104">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>7642C04D-28D8-C61B-242E-693C2D6C97A2</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="060E2FAE-2DEB-1086-F367-DAEEE2388FF3">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>A7A36F13-C9F6-FD92-F2B0-4CCD7853B874</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Partido_id_partido" id="60E10807-E860-6606-F7C8-9FD30A868F87">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>055CC53A-75AC-A4C3-2231-3A150C7904DC</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4FB0B4F-284F-614E-76C9-4A44988F527D" referredColumn="FBAB149F-ABB7-FCD5-25A9-F38912BAFC63"/>
+</associations>
+</Column>
+<Column name="Jugador_numero_jugador" id="0CBE1117-8A18-80E1-ED96-5DBA27F4240E">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>A1A3E682-D2D4-03D1-1E50-F325E2D336FB</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BC689DE-6070-97D3-BBCF-4435CBD5E540" referredColumn="56AF1D05-7AC6-DD8D-1446-A520B5E29DC9"/>
+</associations>
+</Column>
+<Column name="Jugador_id_equipo" id="9FA0743F-17E3-5670-A72C-6490F68DA1A9">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>11E382BD-F226-1FEB-BB35-812FF9E05FCA</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BC689DE-6070-97D3-BBCF-4435CBD5E540" referredColumn="353D4509-5B0E-C293-700C-A335B86A536F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E96A7D9-2425-3F78-6CA6-3EFC8D6AB996" name="Alineacion_PK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>904A8779-7F82-DFDD-6B8F-C6948228F9AB</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60E10807-E860-6606-F7C8-9FD30A868F87"/>
+<colUsage columnID="0CBE1117-8A18-80E1-ED96-5DBA27F4240E"/>
+<colUsage columnID="9FA0743F-17E3-5670-A72C-6490F68DA1A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BBD7C21-FFC7-9581-A05E-475AFF0DDC2D" name="Alineacion_Jugador_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>550C8EFC-3F36-FF27-DDDE-EF253F612E27</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CBE1117-8A18-80E1-ED96-5DBA27F4240E"/>
+<colUsage columnID="9FA0743F-17E3-5670-A72C-6490F68DA1A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="119B0900-0AD8-B51A-8D89-7B6D773ACBC9" name="Alineacion_Partido_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>1856BC0E-5B57-1691-6B0A-5FDF1123A5A0</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60E10807-E860-6606-F7C8-9FD30A868F87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

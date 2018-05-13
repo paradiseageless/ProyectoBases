@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ocurren" directorySegmentName="seg_0" id="D9EA5450-56AA-61B1-29E3-A3DAEC145604">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:36:33 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<sourcePk>13EA6149-0ACA-C250-AA31-4F7DB0B14437</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>838AD2D6-D3CC-5C5A-EB3F-569770F8AFB1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5DD13F00-038C-7C1D-9B2E-8798A8D88013</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="nacieron" directorySegmentName="seg_0" id="33ABADD2-3EEC-D136-76D7-9C217C729FC1">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:17:24 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<sourcePk>2FB22CD0-976B-4E0E-1260-001059FF3298</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3500E7CF-B758-19EC-F9A7-9322CEBDB033</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>38797BD6-96D1-DA3B-9705-FB5C45608840</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

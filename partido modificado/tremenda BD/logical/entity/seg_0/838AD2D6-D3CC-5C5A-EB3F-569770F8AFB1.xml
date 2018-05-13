@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="838AD2D6-D3CC-5C5A-EB3F-569770F8AFB1" name="Partido">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:27:26 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_partido" id="76380FD9-B163-E17A-1729-EB146A5C45FC">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:43:29 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_partido" id="9B5080A1-7A59-F303-D25F-B3536C66D07A">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:43:45 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estadio" id="EF1D9283-0E78-309C-42A2-A2360D58F17E">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:59:43 UTC</createdTime>
+<generatorID>575E49AB-D03F-05C0-6B36-17EC99288911</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>01EAE32F-69A4-9D65-CBB0-7AA2916D3AB1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_partido1" id="48E06973-F082-DC5F-5DD1-179D1FA828DC">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:00:03 UTC</createdTime>
+<generatorID>711A7625-DE16-BD8B-9E01-90738BC14E76</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>76380FD9-B163-E17A-1729-EB146A5C45FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_partido2" id="EF88E4CD-6366-C7A3-5A91-53FE1005748B">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:00:03 UTC</createdTime>
+<generatorID>89EC9C06-6379-AE1B-4B41-81FED5AE39B6</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>76380FD9-B163-E17A-1729-EB146A5C45FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fasePartido" id="7EB98133-FBCD-404D-1A49-44CF2A9CE57B">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-11 01:47:36 UTC</createdTime>
+<generatorID>E4F31AC0-7437-C1A5-65D8-F386A9E86749</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3D443B09-CFF8-2E79-8BAA-2CB36DC6A30E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13EA6149-0ACA-C250-AA31-4F7DB0B14437" name="partido PK">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:43:44 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>76380FD9-B163-E17A-1729-EB146A5C45FC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

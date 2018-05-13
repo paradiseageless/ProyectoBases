@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="79474269-888B-CC6D-0CB4-725C1CE78471" containerWithKeyObject="9FCA24F5-FA7B-4D0C-DA94-4387387B6251" localFKIndex="77F4D09C-899F-E172-64E7-93E96DA1DA97" name="Estadio_Ciudad_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>473427ED-C3D1-4CA8-2C7A-8B12BDBBAC11</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<referredTableLongName>Ciudad</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D3144915-92D2-43C4-64D0-DE30639CB1E0</referredTableID>
+<keyObject>E714C96C-9FAB-9009-AC44-1E51B5E00281</keyObject>
+<referredKeyID>E714C96C-9FAB-9009-AC44-1E51B5E00281</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ciudad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

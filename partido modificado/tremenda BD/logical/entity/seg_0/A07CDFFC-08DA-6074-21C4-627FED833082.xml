@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A07CDFFC-08DA-6074-21C4-627FED833082" name="Costo_boleta">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-11 01:41:04 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_fase" id="797D7030-D908-7929-4EB7-93D14BDF2E98">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-11 01:46:48 UTC</createdTime>
+<generatorID>667465B7-A0FF-AC91-EB03-A4C3AACA9260</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>3D443B09-CFF8-2E79-8BAA-2CB36DC6A30E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_categoria" id="D1CB51D0-F773-3570-93FD-63637C8D5CA4">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-11 01:46:53 UTC</createdTime>
+<generatorID>FD15C25F-AC1D-A9CF-CC29-51901D2134A1</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>017BE10E-4C33-7D7C-8AD4-19A84A858382</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="costo" id="BDA5EFB0-EEA8-6F0A-F2E5-56B0718FB04B">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-11 01:50:42 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA6A498F-8ED6-7232-9E61-AE9B8947C6AF" name="Costo_boleta PK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-11 01:50:54 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>797D7030-D908-7929-4EB7-93D14BDF2E98</attributeRef>
+<attributeRef>D1CB51D0-F773-3570-93FD-63637C8D5CA4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

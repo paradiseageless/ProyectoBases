@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="46D61108-C548-3344-E56A-A4150FFAD243" containerWithKeyObject="D065057E-8360-BB6F-DFC7-7064434E196B" localFKIndex="FDE803DE-B3EA-012B-02FA-5113C5E174FE" name="Historial_jugador_Jugador_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>B2FEEB5F-5CA5-CD34-C0FF-3A494A3B9187</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<referredTableLongName>Jugador</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A7576465-067F-AF41-26A9-86E4092D60AD</referredTableID>
+<keyObject>B0351457-8A56-4E97-478B-40CBF4E909C3</keyObject>
+<referredKeyID>B0351457-8A56-4E97-478B-40CBF4E909C3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numero_jugador,Equipo_id_equipo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

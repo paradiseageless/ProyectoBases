@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2ADF5FD9-ECAF-F786-2C19-2C5F4BD8E00B" containerWithKeyObject="20F4D3BA-E705-80A1-7D85-2C9304DB864D" localFKIndex="CD38B48A-2140-5516-0E30-854D95F80601" name="Equipo_Tecnico_secundario_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>EFFA7401-8BAD-B1A2-A071-784682468C87</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<referredTableLongName>Tecnico_secundario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2F77F218-D338-A8C3-F125-A5C31C3DC257</referredTableID>
+<keyObject>CFF320C3-E5E6-1A96-B2AA-A0C98F3FF1D9</keyObject>
+<referredKeyID>CFF320C3-E5E6-1A96-B2AA-A0C98F3FF1D9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tecnico</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

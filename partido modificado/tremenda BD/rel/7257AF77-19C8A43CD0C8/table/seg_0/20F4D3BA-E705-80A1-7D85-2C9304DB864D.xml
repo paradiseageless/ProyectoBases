@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20F4D3BA-E705-80A1-7D85-2C9304DB864D" name="Equipo">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>11003ACB-946B-6CE6-33E0-D78AD1C55D3A</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="6D2C2C22-6276-4A5E-5F49-5E70B08A006B">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>695D0B30-CE0A-46CC-4BB8-ECA0C2904968</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_equipo" id="1BF31A93-C68E-4713-6AC1-63DEECE2401A">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>22F27912-1132-4691-9C1A-E9AB33880C69</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Grupo_id_grupo" id="2D8929EC-0221-5D6D-EA69-3A7F7F3B1EB7">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>D2E73E52-52AC-7C7B-D3DE-660019BC5578</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A67AF23-0AFC-1CE0-D223-AB7E42B4B982" referredColumn="440B3E49-E335-0EE7-EFFA-59D0599BEC79"/>
+</associations>
+</Column>
+<Column name="Tecnico_id_tecnico" id="6FC3AF0A-F743-1E03-E1D3-411154984EBB">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>8C4BC35C-7720-3591-9027-FF6ED5C71385</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05E2C2AA-6A38-2115-F24F-4E1C82433199" referredColumn="991A71AA-D644-13BD-7872-DE18B0FEA9B4"/>
+</associations>
+</Column>
+<Column name="Tecnico_secundario_id_tecnico" id="577000FD-FA52-97C4-5016-E2212BEF633D">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>37D92C8E-D1A3-0AB5-AA89-3B1EBE02F838</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2ADF5FD9-ECAF-F786-2C19-2C5F4BD8E00B" referredColumn="00925BD8-6607-7352-EED7-2712DD12934B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E709EBD-B7E8-E623-D0E5-30A732B79F36" name="Equipo_PK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>48A6DD8E-9152-FB5F-3D9C-3D4DE4698D77</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BF31A93-C68E-4713-6AC1-63DEECE2401A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6867203C-9ABC-F469-B78E-59C533949D8F" name="Equipo__IDX">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>358EE2A3-373D-E89E-4B1B-BF35A8763326</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6FC3AF0A-F743-1E03-E1D3-411154984EBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85B61DBE-4735-1E0C-471E-2DDB60759D94" name="Equipo__IDXv1">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EFFA7401-8BAD-B1A2-A071-784682468C87</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="577000FD-FA52-97C4-5016-E2212BEF633D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0BD6196-932C-E792-AE58-442B42B3C1A4" name="Equipo_Tecnico_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>358EE2A3-373D-E89E-4B1B-BF35A8763326</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FC3AF0A-F743-1E03-E1D3-411154984EBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD38B48A-2140-5516-0E30-854D95F80601" name="Equipo_Tecnico_secundario_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>EFFA7401-8BAD-B1A2-A071-784682468C87</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="577000FD-FA52-97C4-5016-E2212BEF633D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F71D0F52-0874-9BFF-4019-A4216E0D458F" name="Equipo_Grupo_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>76E7157A-34B0-F840-093E-899E7AC89D1B</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D8929EC-0221-5D6D-EA69-3A7F7F3B1EB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

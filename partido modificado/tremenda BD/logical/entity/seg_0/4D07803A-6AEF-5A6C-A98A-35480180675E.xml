@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D07803A-6AEF-5A6C-A98A-35480180675E" name="Tarjeta">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:47:45 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="color" id="9C8E570A-A3DF-1F90-F641-EE3D26554214">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:47:55 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="minuto" id="9526AFE4-0EAF-ED4F-1B81-08872861F717">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:48:17 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_partido" id="471B6E0B-9767-D24D-563A-DBD250340937">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:29:06 UTC</createdTime>
+<generatorID>2C58956F-D59A-45FF-B7D0-77F91B0C7A29</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>76380FD9-B163-E17A-1729-EB146A5C45FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_jugador" id="75C20527-9A20-48AD-6BE0-254772B06385">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:32:23 UTC</createdTime>
+<generatorID>4B121085-A9C2-7841-9F1F-C1C9080DA7F7</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>F3B58019-9FAE-A607-F63C-F80E433D5A4F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_equipo" id="6869F5CE-3073-42FC-EF24-9E97CE8A6A93">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:32:23 UTC</createdTime>
+<generatorID>4B121085-A9C2-7841-9F1F-C1C9080DA7F7</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>27243D44-6264-9FA3-D45D-0C3E900B1055</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A2256E4-64E2-8CE7-E11B-8C5852F740F2" name="tarjeta PK">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:48:09 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9526AFE4-0EAF-ED4F-1B81-08872861F717</attributeRef>
+<attributeRef>471B6E0B-9767-D24D-563A-DBD250340937</attributeRef>
+<attributeRef>75C20527-9A20-48AD-6BE0-254772B06385</attributeRef>
+<attributeRef>6869F5CE-3073-42FC-EF24-9E97CE8A6A93</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

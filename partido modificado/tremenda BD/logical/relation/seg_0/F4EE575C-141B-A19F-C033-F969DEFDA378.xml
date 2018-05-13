@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="nacionalidad_juez" directorySegmentName="seg_0" id="F4EE575C-141B-A19F-C033-F969DEFDA378">
+<createdBy>sala a</createdBy>
+<createdTime>2018-04-24 20:21:18 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<sourcePk>2FB22CD0-976B-4E0E-1260-001059FF3298</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3500E7CF-B758-19EC-F9A7-9322CEBDB033</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8A0FEA68-28D2-7BCA-6598-419465AD5E44</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

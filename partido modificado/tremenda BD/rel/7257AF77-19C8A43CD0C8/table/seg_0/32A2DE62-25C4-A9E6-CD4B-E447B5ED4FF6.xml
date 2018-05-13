@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32A2DE62-25C4-A9E6-CD4B-E447B5ED4FF6" name="Arbitra">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>6BBEF1FB-79AC-7267-AD1C-95F6DFE4BF82</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipo" id="1F051AB4-D535-E93A-B927-4B3B33FC41B7">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>DCC293D1-98DB-93B4-0310-A16DB5599160</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Partido_id_partido" id="AA87E1E2-7A5C-2F7F-E0FA-77C7DC059353">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>B889BA70-8331-2098-7A27-AAD17E2E795B</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE4B58FA-60B1-23E2-06E0-C184896AEE6B" referredColumn="FBAB149F-ABB7-FCD5-25A9-F38912BAFC63"/>
+</associations>
+</Column>
+<Column name="Juez_id_juez" id="13D60680-D987-7DCD-48F8-477335E3A663">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>C684B635-9A86-0C27-E634-8FECFBA63EF7</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85A4F3B5-4964-AB82-4F6A-7D53DAA667C7" referredColumn="FC616021-9CB7-23A5-BBC8-1170E65222E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C0A6CE2-C60F-99CF-13AB-0C6C42466E2E" name="Arbitra_PK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>085F8D65-3D7A-1993-8086-1F95225925BA</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA87E1E2-7A5C-2F7F-E0FA-77C7DC059353"/>
+<colUsage columnID="13D60680-D987-7DCD-48F8-477335E3A663"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6030AA21-5D9A-C3E3-5B0C-B740E77E9795" name="Arbitra_Juez_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>9DE256AD-05F3-7960-4C06-680758B35BAC</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13D60680-D987-7DCD-48F8-477335E3A663"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15A9A56C-9D6D-7B31-2102-FFB3C121341C" name="Arbitra_Partido_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>52D5B23A-0CC5-E6CD-9A76-1CCA51A04B1F</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA87E1E2-7A5C-2F7F-E0FA-77C7DC059353"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

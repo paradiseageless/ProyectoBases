@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3C887DF-D211-7309-D67B-A7274E9D574F" name="Partido_Octavos">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>DA1C7E6D-9193-6056-8B60-A1415A4A58EF</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_partido" id="6D19E99A-FF85-E275-6652-B872AB95DD84">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>76380FD9-B163-E17A-1729-EB146A5C45FC</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45AF2A59-27A0-7369-EF0D-3D0044288A87" referredColumn="FBAB149F-ABB7-FCD5-25A9-F38912BAFC63"/>
+</associations>
+</Column>
+<Column name="Ganadores_Ganadores_ID" id="9999A0D7-E5A5-284D-0198-475469256399">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA413623-18E0-087B-4F87-3ECD9E00FA91" referredColumn="6C78D6AD-28EF-DA40-48E4-CF2A2474F540"/>
+</associations>
+</Column>
+<Column name="Ganadores_Ganadores_ID1" id="45649CB8-A2DF-093F-47D3-75492E6416DB">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E82F32C1-E8DE-C00A-8222-152259876A1F" referredColumn="6C78D6AD-28EF-DA40-48E4-CF2A2474F540"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10DB2EE2-440D-EF36-3F4C-82A998A533CD" name="Partido_Octavos_PK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>13EA6149-0ACA-C250-AA31-4F7DB0B14437</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D19E99A-FF85-E275-6652-B872AB95DD84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="869C6FAD-205A-C8E7-CCB8-16180D8F19E9" name="Partido_Octavos__IDX">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>61BB5906-07A8-33AB-57C8-16DF8F5053B3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9999A0D7-E5A5-284D-0198-475469256399"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8956F8FF-C5DF-5703-4102-C26723A119D7" name="Partido_Octavos__IDXv1">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3F3FD27E-EA6E-23C2-E089-DBA9F4A9CAC1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="45649CB8-A2DF-093F-47D3-75492E6416DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24A85F03-9D3C-4CDE-2D60-74E47419F39E" name="Partido_Octavos_Partido_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>4CCD7DF5-2CA0-450B-467B-19FE7E8B71AF</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D19E99A-FF85-E275-6652-B872AB95DD84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EB15622-2B1A-D000-C736-D9F9B00AFDB8" name="Partido_Octavos_Ganadores_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>61BB5906-07A8-33AB-57C8-16DF8F5053B3</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9999A0D7-E5A5-284D-0198-475469256399"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E40BD1CE-16E3-2CD1-C294-B1805D9C1A97" name="Partido_Octavos_Ganadores_FKv2">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>3F3FD27E-EA6E-23C2-E089-DBA9F4A9CAC1</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45649CB8-A2DF-093F-47D3-75492E6416DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

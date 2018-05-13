@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="partido3f_partido1" directorySegmentName="seg_0" id="711A7625-DE16-BD8B-9E01-90738BC14E76">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 16:59:47 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<sourcePk>13EA6149-0ACA-C250-AA31-4F7DB0B14437</sourcePk>
+<targetPk>13EA6149-0ACA-C250-AA31-4F7DB0B14437</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A09169D1-9654-01DA-22E0-AC3D17F4ED32</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>838AD2D6-D3CC-5C5A-EB3F-569770F8AFB1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

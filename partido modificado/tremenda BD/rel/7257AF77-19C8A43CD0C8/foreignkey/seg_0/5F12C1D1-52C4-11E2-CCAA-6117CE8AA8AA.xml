@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5F12C1D1-52C4-11E2-CCAA-6117CE8AA8AA" containerWithKeyObject="55461B8D-1ABA-DDF7-11BD-DA66ED213DF6" localFKIndex="E2352DE8-228E-2815-49CB-67AA26E90BA8" name="Tarjeta_Partido_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>2C58956F-D59A-45FF-B7D0-77F91B0C7A29</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<referredTableLongName>Partido</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F37D08A4-CAD4-6232-CEC8-1CD97E12D2EC</referredTableID>
+<keyObject>33FE0138-7239-BB77-F48A-53975A4BD886</keyObject>
+<referredKeyID>33FE0138-7239-BB77-F48A-53975A4BD886</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_partido</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

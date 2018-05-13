@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5DD13F00-038C-7C1D-9B2E-8798A8D88013" name="Gol">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:10:37 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="minuto" id="EE99CE16-ECA6-672A-0B28-F1112A5D2D56">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:11:07 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tiempo" id="7CC3C55F-E684-CF96-DE83-F159E91064C7">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:11:42 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_tiro" id="652AF871-DD05-2CFE-3218-19FE78031429">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:12:18 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="var" id="C27E2500-53E4-3369-8EBC-11D5A6479AB2">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:12:36 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_jugador" id="12DF3714-A9E6-7288-A3BC-B073D4B5A04A">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:19:13 UTC</createdTime>
+<generatorID>69B7F701-519E-A5E2-1CA3-D6D7EF59245C</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>F3B58019-9FAE-A607-F63C-F80E433D5A4F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_equipo" id="560E5E33-A12C-1BD9-E2BD-0DE3C072385E">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:19:13 UTC</createdTime>
+<generatorID>69B7F701-519E-A5E2-1CA3-D6D7EF59245C</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>27243D44-6264-9FA3-D45D-0C3E900B1055</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_partido" id="9012053F-142A-A83B-E93B-C00842BF9BF4">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:36:33 UTC</createdTime>
+<generatorID>D9EA5450-56AA-61B1-29E3-A3DAEC145604</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>76380FD9-B163-E17A-1729-EB146A5C45FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E7E52738-E0D1-3E09-9D4A-D0EAE2711E07" name="gol PK">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:11:39 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE99CE16-ECA6-672A-0B28-F1112A5D2D56</attributeRef>
+<attributeRef>12DF3714-A9E6-7288-A3BC-B073D4B5A04A</attributeRef>
+<attributeRef>560E5E33-A12C-1BD9-E2BD-0DE3C072385E</attributeRef>
+<attributeRef>9012053F-142A-A83B-E93B-C00842BF9BF4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

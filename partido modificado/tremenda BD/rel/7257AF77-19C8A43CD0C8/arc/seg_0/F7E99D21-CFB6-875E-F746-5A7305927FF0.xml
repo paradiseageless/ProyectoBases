@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="F7E99D21-CFB6-875E-F746-5A7305927FF0" name="FKArc_1">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>F37D08A4-CAD4-6232-CEC8-1CD97E12D2EC</table>
+<fkeys>
+<fkeyID>431C2618-B537-80CD-4A66-7B74A33BB44D</fkeyID>
+<fkeyID>45AF2A59-27A0-7369-EF0D-3D0044288A87</fkeyID>
+<fkeyID>AE7D5FF0-5927-215B-906B-D10328AB04B7</fkeyID>
+</fkeys>
+</FKArc>

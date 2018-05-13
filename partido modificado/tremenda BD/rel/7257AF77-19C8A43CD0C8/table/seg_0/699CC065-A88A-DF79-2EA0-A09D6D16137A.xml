@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="699CC065-A88A-DF79-2EA0-A09D6D16137A" name="Gol">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>5DD13F00-038C-7C1D-9B2E-8798A8D88013</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="minuto" id="7D9F11E9-FECD-B290-928B-B5CEAF29CE9D">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>EE99CE16-ECA6-672A-0B28-F1112A5D2D56</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tiempo" id="622A0441-0857-2AC5-6FA9-02A7B8126963">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>7CC3C55F-E684-CF96-DE83-F159E91064C7</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_tiro" id="13D3ED1D-C33A-C886-CC30-629ECDED8153">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>652AF871-DD05-2CFE-3218-19FE78031429</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="var" id="DE052BB9-D1E6-CB05-8E4C-E2FA175DF1F1">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>C27E2500-53E4-3369-8EBC-11D5A6479AB2</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jugador_numero_jugador" id="8A88A2F0-71CE-EECD-7B4C-BF65BAAC5E1A">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>12DF3714-A9E6-7288-A3BC-B073D4B5A04A</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="356D6107-26F2-9E6D-D001-62A44332C9F3" referredColumn="56AF1D05-7AC6-DD8D-1446-A520B5E29DC9"/>
+</associations>
+</Column>
+<Column name="Jugador_Equipo_id_equipo" id="FF84A187-9B6C-0009-3C0B-6AA6141A815D">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>560E5E33-A12C-1BD9-E2BD-0DE3C072385E</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="356D6107-26F2-9E6D-D001-62A44332C9F3" referredColumn="353D4509-5B0E-C293-700C-A335B86A536F"/>
+</associations>
+</Column>
+<Column name="Partido_id_partido" id="8662626C-21C6-E57C-54E6-B6C0F6275276">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>9012053F-142A-A83B-E93B-C00842BF9BF4</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73EF9E49-7300-177D-1AD5-798B20FE91BC" referredColumn="FBAB149F-ABB7-FCD5-25A9-F38912BAFC63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB861751-DE72-5D11-DB1F-0365C8B6FC96" name="Gol_PK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>E7E52738-E0D1-3E09-9D4A-D0EAE2711E07</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D9F11E9-FECD-B290-928B-B5CEAF29CE9D"/>
+<colUsage columnID="8A88A2F0-71CE-EECD-7B4C-BF65BAAC5E1A"/>
+<colUsage columnID="FF84A187-9B6C-0009-3C0B-6AA6141A815D"/>
+<colUsage columnID="8662626C-21C6-E57C-54E6-B6C0F6275276"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5989FDA7-956E-23F4-7D8B-CEFD49D6BABD" name="Gol_Partido_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>D9EA5450-56AA-61B1-29E3-A3DAEC145604</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8662626C-21C6-E57C-54E6-B6C0F6275276"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3DA9C25-7FFB-4759-4251-C2862E2BB5A4" name="Gol_Jugador_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>69B7F701-519E-A5E2-1CA3-D6D7EF59245C</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A88A2F0-71CE-EECD-7B4C-BF65BAAC5E1A"/>
+<colUsage columnID="FF84A187-9B6C-0009-3C0B-6AA6141A815D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

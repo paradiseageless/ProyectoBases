@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_3" directorySegmentName="seg_0" id="3917F427-1010-A9EF-F70D-EDAFD01C1DE5">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 16:35:56 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>838AD2D6-D3CC-5C5A-EB3F-569770F8AFB1</sourceEntity>
+<targetEntity>CB4B5F6E-EFD6-25E1-9400-E678EEB98282</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

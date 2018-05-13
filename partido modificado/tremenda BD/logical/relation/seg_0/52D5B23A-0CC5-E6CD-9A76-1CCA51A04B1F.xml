@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="partido_arbitra" directorySegmentName="seg_0" id="52D5B23A-0CC5-E6CD-9A76-1CCA51A04B1F">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:24:55 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<sourcePk>13EA6149-0ACA-C250-AA31-4F7DB0B14437</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>838AD2D6-D3CC-5C5A-EB3F-569770F8AFB1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6BBEF1FB-79AC-7267-AD1C-95F6DFE4BF82</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

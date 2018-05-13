@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A13FD96D-94E3-BA2A-3C83-9DE02FB1C852" name="Alineacion">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:52:26 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="posicion" id="7642C04D-28D8-C61B-242E-693C2D6C97A2">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:55:07 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="A7A36F13-C9F6-FD92-F2B0-4CCD7853B874">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:55:20 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_partido" id="055CC53A-75AC-A4C3-2231-3A150C7904DC">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:39:39 UTC</createdTime>
+<generatorID>1856BC0E-5B57-1691-6B0A-5FDF1123A5A0</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>76380FD9-B163-E17A-1729-EB146A5C45FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_jugador" id="A1A3E682-D2D4-03D1-1E50-F325E2D336FB">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:41:59 UTC</createdTime>
+<generatorID>550C8EFC-3F36-FF27-DDDE-EF253F612E27</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>F3B58019-9FAE-A607-F63C-F80E433D5A4F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_equipo" id="11E382BD-F226-1FEB-BB35-812FF9E05FCA">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:41:59 UTC</createdTime>
+<generatorID>550C8EFC-3F36-FF27-DDDE-EF253F612E27</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>27243D44-6264-9FA3-D45D-0C3E900B1055</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="904A8779-7F82-DFDD-6B8F-C6948228F9AB" name="alineacion PK">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:39:39 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>055CC53A-75AC-A4C3-2231-3A150C7904DC</attributeRef>
+<attributeRef>A1A3E682-D2D4-03D1-1E50-F325E2D336FB</attributeRef>
+<attributeRef>11E382BD-F226-1FEB-BB35-812FF9E05FCA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

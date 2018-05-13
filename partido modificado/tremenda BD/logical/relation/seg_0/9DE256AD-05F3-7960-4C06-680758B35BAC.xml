@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="juez_arbitra" directorySegmentName="seg_0" id="9DE256AD-05F3-7960-4C06-680758B35BAC">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:25:20 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<sourcePk>25AB69B7-69A3-ABD0-379B-1697136209C1</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8A0FEA68-28D2-7BCA-6598-419465AD5E44</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6BBEF1FB-79AC-7267-AD1C-95F6DFE4BF82</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

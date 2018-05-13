@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11003ACB-946B-6CE6-33E0-D78AD1C55D3A" name="Equipo">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:07:31 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre" id="695D0B30-CE0A-46CC-4BB8-ECA0C2904968">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:07:52 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_equipo" id="22F27912-1132-4691-9C1A-E9AB33880C69">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:08:13 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_grupo" id="D2E73E52-52AC-7C7B-D3DE-660019BC5578">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:26:02 UTC</createdTime>
+<generatorID>76E7157A-34B0-F840-093E-899E7AC89D1B</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>275FB42C-D4EC-FF24-32A2-58A5CC2051D0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tecnico" id="8C4BC35C-7720-3591-9027-FF6ED5C71385">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-05 23:18:44 UTC</createdTime>
+<generatorID>358EE2A3-373D-E89E-4B1B-BF35A8763326</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>268FF986-2271-255D-BBFE-3457D4883FF6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tecnico1" id="37D92C8E-D1A3-0AB5-AA89-3B1EBE02F838">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-05 23:20:19 UTC</createdTime>
+<generatorID>EFFA7401-8BAD-B1A2-A071-784682468C87</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>E5904774-DE45-3BA7-5D20-31603ED18D53</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="48A6DD8E-9152-FB5F-3D9C-3D4DE4698D77" name="equipo PK">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 21:08:29 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>22F27912-1132-4691-9C1A-E9AB33880C69</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

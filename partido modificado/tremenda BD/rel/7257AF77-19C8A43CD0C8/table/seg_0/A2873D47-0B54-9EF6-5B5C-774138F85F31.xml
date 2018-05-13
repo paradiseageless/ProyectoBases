@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2873D47-0B54-9EF6-5B5C-774138F85F31" name="Grupo">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>CC96023C-FC32-AF84-94B0-72AA533BF2E5</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_grupo" id="440B3E49-E335-0EE7-EFFA-59D0599BEC79">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>275FB42C-D4EC-FF24-32A2-58A5CC2051D0</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_grupo" id="B10A78CE-1730-BBEC-BBD8-2888E0C2A8BF">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>58D0BEF6-FF07-615A-18D0-8442E5268908</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Partido_grupos_id_partido1" id="7A0C46CC-6FE5-7201-7056-90C2E4A66E73">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>25BF52E9-B522-6508-EDCC-15CA5EF9AED3</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B86EA0F-D42A-DC4D-BA03-A91B838ACEC8" referredColumn="01235FE2-C7F4-CD01-503B-51022E0E1F6F"/>
+</associations>
+</Column>
+<Column name="Partido_grupos_id_partido" id="51ACB34C-0A91-7BFF-345C-C1DF67BF1BFD">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>35283F25-16EF-2F38-BCD4-4664D6B12819</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4445786-A1F1-3CA3-C5E9-85D6D54571A9" referredColumn="01235FE2-C7F4-CD01-503B-51022E0E1F6F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95E3D6E7-0032-42D0-1E04-170AAD85FFB8" name="Grupo_PK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:51 UTC</createdTime>
+<generatorID>D7F2E9D0-B560-3CDC-BB87-86DC03954322</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="440B3E49-E335-0EE7-EFFA-59D0599BEC79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="742ACB80-7E6B-ADC3-2B1F-361EC9EE6BF8" name="Grupo_Partido_grupos_FK">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>EC0F14B2-5E5C-7AB0-DC90-6D127C89D4EF</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51ACB34C-0A91-7BFF-345C-C1DF67BF1BFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D8907F7-4FFC-17A0-0CA3-1598FAD1D5B0" name="Grupo_Partido_grupos_FKv2">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-08 17:19:52 UTC</createdTime>
+<generatorID>4DA540DC-EF57-4278-9326-EF149EA866D4</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A0C46CC-6FE5-7201-7056-90C2E4A66E73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

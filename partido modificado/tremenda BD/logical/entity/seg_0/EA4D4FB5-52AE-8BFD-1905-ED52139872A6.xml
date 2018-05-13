@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA4D4FB5-52AE-8BFD-1905-ED52139872A6" name="Sillas">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 20:56:40 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero" id="DF426509-24FD-C671-C553-7D2CF8F5DD12">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 20:56:49 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ubicacion" id="72D52F52-3149-AE8B-B3EC-D02C1684FCFF">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 20:57:36 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estadio" id="B8CBDF56-270D-6FBF-1ED0-8265FE133824">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 23:02:09 UTC</createdTime>
+<generatorID>49D3FD85-357E-5F01-ECF7-1A47A5EC070A</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<referedAttribute>01EAE32F-69A4-9D65-CBB0-7AA2916D3AB1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_categoriaSillas" id="C89771C4-B505-4CED-F387-45AD737FD78E">
+<createdBy>danih</createdBy>
+<createdTime>2018-05-11 01:47:20 UTC</createdTime>
+<generatorID>4DD91E2A-8B5A-751F-132D-CAC0505614C7</generatorID>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>017BE10E-4C33-7D7C-8AD4-19A84A858382</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7D7D8BCE-17D1-AE7C-1E1F-0E194C604F5B" name="sillas PK">
+<createdBy>randy</createdBy>
+<createdTime>2018-04-14 20:57:08 UTC</createdTime>
+<ownerDesignName>tremenda BD</ownerDesignName>
+<engineerTo>
+<item key="7257AF77-97BD-FEBF-0B57-19C8A43CD0C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DF426509-24FD-C671-C553-7D2CF8F5DD12</attributeRef>
+<attributeRef>72D52F52-3149-AE8B-B3EC-D02C1684FCFF</attributeRef>
+<attributeRef>B8CBDF56-270D-6FBF-1ED0-8265FE133824</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
